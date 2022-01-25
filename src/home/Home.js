@@ -3,7 +3,6 @@ import React, { useEffect, useRef } from "react"
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -21,7 +20,7 @@ import Avatar from '@mui/material/Avatar';
 
 
 import '../index.css';
-//<img className="serveback" src='../img/serveback.png' alt="slide" />
+//<img className="serveback" src='https://alf0ns0-l0pez.github.io/portfolio/img/serveback.png' alt="slide" />
 const pages = ['Projects', 'About', 'Blog'];
 export const Home = props => {
     const slideshow = useRef(null);
@@ -97,7 +96,7 @@ export const Home = props => {
                                 component="div"
                                 sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                             >
-                                <img src='../img/al_logo.png' className='logo_menu' alt="..." />
+                                <img src='https://alf0ns0-l0pez.github.io/portfolio/img/al_logo.png' className='logo_menu' alt="..." />
                             </Typography>
 
                             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -142,7 +141,7 @@ export const Home = props => {
                                 component="div"
                                 sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
                             >
-                                <img src='../img/al_logo.png' className='logo_menu' alt="..." />
+                                <img src='https://alf0ns0-l0pez.github.io/portfolio/img/al_logo.png' className='logo_menu' alt="..." />
                             </Typography>
                             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                                 {pages.map((page) => (
@@ -159,7 +158,7 @@ export const Home = props => {
                             <Box sx={{ flexGrow: 0 }}>
                                 <Tooltip title="Alfonso Lopez">
                                     <IconButton>
-                                        <Avatar alt="Remy Sharp" src="../img/mastergreen.png" />
+                                        <Avatar alt="Remy Sharp" src="https://alf0ns0-l0pez.github.io/portfolio/img/mastergreen.png" />
                                     </IconButton>
                                 </Tooltip>
                             </Box>
@@ -170,20 +169,20 @@ export const Home = props => {
             <div className='slider_complete' >
                 <div className='slider_galery' ref={slideshow}>
                     <div className='slide_single'>
-                        <img src='../img/pcbback1.png' className='img_slide' alt="..." />
+                        <img src='https://alf0ns0-l0pez.github.io/portfolio/img/pcbback1.png' className='img_slide' alt="..." />
                     </div>
                     <div className='slide_single'>
-                        <img src='../img/pcbback2.png' className='img_slide' alt="..." />
+                        <img src='https://alf0ns0-l0pez.github.io/portfolio/img/pcbback2.png' className='img_slide' alt="..." />
                     </div>
                     <div className='slide_single'>
-                        <img src='../img/pcbback3.png' className='img_slide' alt="..." />
+                        <img src='https://alf0ns0-l0pez.github.io/portfolio/img/pcbback3.png' className='img_slide' alt="..." />
                     </div>
                     <div className='slide_single'>
-                        <img src='../img/pcbback4.png' className='img_slide' alt="..." />
+                        <img src='https://alf0ns0-l0pez.github.io/portfolio/img/pcbback4.png' className='img_slide' alt="..." />
                     </div>
                 </div>
                 <div className='over_slider'>
-                    <img className='profileimage' src='../img/profile_image.png' alt="..." />
+                    <img className='profileimage' src='https://alf0ns0-l0pez.github.io/portfolio/img/profile_image.png' alt="..." />
                 </div>
             </div>
             <div className="presentation">
