@@ -1,7 +1,7 @@
 import React from 'react';
 import '../index.css';
 
-const pages = ['HOME', 'PLATFORMS', 'EXPERIENCE', 'CONTACT'];
+const pages = ['Home', 'Platforms', 'Experiences', 'Contact'];
 export default function TopMenu(props) {
     const { isMobile } = props;
     const handleCloseMenu = () => {
@@ -15,7 +15,7 @@ export default function TopMenu(props) {
             
             {!isMobile?<form style={{marginRight:'4rem'}}>{pages.map((page) => (
                 <button
-                    className={page=='HOME'?'button_menu_home':'button_menu'}
+                    className={page=='Home'?'button_menu_home':'button_menu'}
                     key={page}
                     onClick={handleCloseMenu}
                 >

@@ -3,7 +3,7 @@ body, html {
   /*overflow: hidden;*/
   overflow-x:hidden;
   background-color: #0a192f;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Murecho', sans-serif;
 }
 
 .title_xxl{
@@ -87,6 +87,7 @@ body, html {
   flex-wrap:nowrap;
 }
 .button_menu{
+  border-radius:0.3rem;
   float: right;
   margin:4.5rem 0 0 1rem;
   padding: 0.5rem 1rem;
@@ -95,6 +96,7 @@ body, html {
   color: #4ec6aa;
 }
 .button_menu_home:hover{
+  border-radius:0.3rem;
   float: right;
   margin:4.5rem 0 0 1rem;
   padding: 0.5rem 1rem;
@@ -104,20 +106,22 @@ body, html {
   
 }
 .button_menu_home{
+  border-radius:0.3rem;
   float: right;
   margin:4.5rem 0 0 1rem;
   padding: 0.5rem 1rem;
   border: solid 0.1rem #ffffff;
   background-color: #4ec6aa;
-  color: #ffffff;
+  color: #0a192f;
 }
 .button_menu:hover{
+  border-radius:0.3rem;
   float: right;
   margin:4.5rem 0 0 1rem;
   padding: 0.5rem 1rem;
   border: solid 0.1rem #ffffff;
   background-color: #4ec6aa;
-  color: #ffffff;
+  color: #0a192f;
 }
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 *       language img
