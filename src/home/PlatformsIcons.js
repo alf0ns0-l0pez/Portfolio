@@ -6,7 +6,7 @@ export default function PlatformsIcons(){
         <div className="logo_group">
                 <div className="title_xxl">
                     <h1>
-                        PLATFORMS
+                        Platforms
                     </h1>
                 </div>
                 <div className="row_img">

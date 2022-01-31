@@ -11,8 +11,8 @@ body, html {
   justify-content: center;
   align-items: center;
   color:#000000;
-  padding-bottom: 5em;
-  font-size: 30px;
+  padding-bottom: 2em;
+  font-size: 2rem;
 }
 
 .presentation
@@ -133,8 +133,25 @@ body, html {
   background-color: #ffffff;
 }
 
+.social_net_img{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: transparent;
+  color: #4ec6aa;
+  border: #4ec6aa solid 0.15rem;
+  border-radius:0.5rem;
+}
+.social_net_img:hover{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color: #0a192f;
+  background-color: #4ec6aa;
+  border: #4ec6aa solid 0.15rem;
+  border-radius:0.5rem;
+}
+
 .language_img{
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem;
   width: 7rem;
   height:7rem;
 }

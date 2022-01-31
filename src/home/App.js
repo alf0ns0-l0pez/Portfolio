@@ -7,6 +7,7 @@ import ImgCarousel from "./ImgCarousel";
 import Summary from './Summary';
 import PlatformsIcons from './PlatformsIcons';
 import ExperienceList from './ExperienceList';
+import Contact from "./Contact";
 
 export const App = () => {
     const [width, setWidth] = useState(window.innerWidth);
@@ -28,6 +29,7 @@ export const App = () => {
             <Summary isMobile={isMobile}/>
             <PlatformsIcons/>
             <ExperienceList isMobile={isMobile}/>
+            <Contact isMobile={isMobile}/>
         </div>
     );
 };
