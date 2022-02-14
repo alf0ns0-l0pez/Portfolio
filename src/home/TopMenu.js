@@ -22,7 +22,7 @@ export default function TopMenu(props) {
     return (
         <div className='top_menu' style={isMobile ? {height:'18rem'}:{height:'10rem'}}>
             <img 
-                src='https://alf0ns0-l0pez.github.io/portfolio/img/al_logo.png' 
+                src='https://alf0ns0-l0pez.github.io/Portfolio/img/al_logo.png' 
                 className={isMobile ? 'logo_menu_mobile':'logo_menu'} 
                 alt="..."/>
             

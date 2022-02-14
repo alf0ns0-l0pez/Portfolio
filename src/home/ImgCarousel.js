@@ -42,13 +42,13 @@ export default function ImgCarousel(props) {
     return (
         <div className='slider_complete' >
             <div className='slider_galery' style={isMobile ? {width:'800%'}:{width:'400%'}} ref={slideshow}>
-                <img src='https://alf0ns0-l0pez.github.io/portfolio/img/pcbback1.jpg' className='img_slide' alt="..." />
-                <img src='https://alf0ns0-l0pez.github.io/portfolio/img/pcbback2.jpg' className='img_slide' alt="..." />
-                <img src='https://alf0ns0-l0pez.github.io/portfolio/img/pcbback3.jpg' className='img_slide' alt="..." />
-                <img src='https://alf0ns0-l0pez.github.io/portfolio/img/pcbback4.jpg' className='img_slide' alt="..." />
+                <img src='https://alf0ns0-l0pez.github.io/Portfolio/img/pcbback1.jpg' className='img_slide' alt="..." />
+                <img src='https://alf0ns0-l0pez.github.io/Portfolio/img/pcbback2.jpg' className='img_slide' alt="..." />
+                <img src='https://alf0ns0-l0pez.github.io/Portfolio/img/pcbback3.jpg' className='img_slide' alt="..." />
+                <img src='https://alf0ns0-l0pez.github.io/Portfolio/img/pcbback4.jpg' className='img_slide' alt="..." />
             </div>
             <div className='over_slider'>
-                <img className='profileimage' src='https://alf0ns0-l0pez.github.io/portfolio/img/profile_image.png' alt="..." />
+                <img className='profileimage' src='https://alf0ns0-l0pez.github.io/Portfolio/img/profile_image.png' alt="..." />
             </div>
         </div>
     );
