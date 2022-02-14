@@ -6,13 +6,13 @@ export default function Summary(props) {
     return (
         <div className='container_exp gradTop' style={{paddingTop:'10rem'}}>
             <form className={isMobile ? 'experience boxMobile':'experience boxNormal'}>
-                    <p style={{fontSize:'2.5rem', padding:'0 2rem 0'}}>
+                    <p style={{fontSize:'2.7rem', padding:'0 2rem 0'}}>
                     <b>Hello I'm Alfonso Lopez</b>
                     </p>
-                    <p style={{fontSize:'2rem', padding:'0 2rem 0'}}>
+                    <p style={{fontSize:'2.2rem', padding:'0 2rem 0'}}>
                         <b>Software Developer Engineer</b>
                     </p>
-                    <p style={{fontSize:'1.5rem',padding:'0 2rem 0'}}>
+                    <p style={{fontSize:'1.7rem',padding:'0 2rem 0'}}>
                         I'm Engineer with a can-do attitude, an enthusiastic
                         team player and deep creative thinker, proficient with the
                         systems programming and user experience design.

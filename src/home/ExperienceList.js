@@ -10,7 +10,7 @@ export default function ExperienceList(props) {
           <img className='logo_elect left' src='https://www.pacmexico.com/PacLogo.png' alt='...' />
           <h2 style={{ fontSize: "1.8rem"}}>Software Service Engineer</h2>
           <p style={{ fontSize: "1.5rem"}}><b>PAC MEXICO SA DE CV</b><br /><i>2020/01 - Present</i></p>
-          <ul style={{ padding: "0 8rem 0 10rem", fontSize: "1.5rem" , paddingBottom:"2rem"}}>
+          <ul style={{ padding: "0 8rem 0 10rem", fontSize: "1.7rem" , paddingBottom:"2rem"}}>
             <li >Developed a USB Dongle in C language using Human
               Interface Device Protocol to send credentials to server
               software in python for then be distributed through TCP /
@@ -32,7 +32,7 @@ export default function ExperienceList(props) {
           <img className='logo_elect left' src='https://upload.wikimedia.org/wikipedia/commons/d/df/Sanmina_Corporation_logo.svg' alt='...' />
           <h2 style={{ fontSize: "1.8rem"}}>Software Developer</h2>
           <p style={{ fontSize: "1.5rem"}}><b>Sanmina-SCI Corporation</b><br/><i>2018/05 - 2020/01</i></p>
-          <ul style={{ padding: "0 8rem 0 10rem", fontSize: "1.4rem" ,paddingBottom:"2rem"}}>
+          <ul style={{ padding: "0 8rem 0 10rem", fontSize: "1.7rem" ,paddingBottom:"2rem"}}>
             <li>Developed a test station to sell to customer from
               Atlanta which testes an agitation tower moved by a
               stepper motor, it was based in Microchip Assembly
@@ -54,7 +54,7 @@ export default function ExperienceList(props) {
           <img className='logo_elect left' src='https://upload.wikimedia.org/wikipedia/commons/d/df/Sanmina_Corporation_logo.svg' alt='...' />
           <h2 style={{ fontSize: "1.8rem"}}>Test Technician</h2>
           <p style={{ fontSize: "1.5rem"}}><b>Sanmina-SCI Corporation</b><br /><i>2017/07 - 2018/05</i></p>
-          <ul style={{ padding: "0 8rem 0 10rem", fontSize: "1.4rem"}}>
+          <ul style={{ padding: "0 8rem 0 10rem", fontSize: "1.7rem"}}>
             <li>Responsible for equipments that handled the
               refrigeration system manufacturing in the Gryphon
               CocaCola project, end to end.</li>

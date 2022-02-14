@@ -51,6 +51,7 @@ body, html {
     transition: .3s ease all;
     z-index: 10;
     position: relative;
+    height: 35rem;
   
 }
 .slider_galery{
@@ -171,7 +172,7 @@ body, html {
 *-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 */
 .logo_elect{
-  padding:2rem 3rem 4rem 2rem;
+  padding:2rem 3rem 5rem 2rem;
   width:5rem;
 }
 .gradBot{
