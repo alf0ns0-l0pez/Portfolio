@@ -29,7 +29,7 @@ export default function PlatformsIcons(){
                 <div className="row_img">
                     <img className='language_img' src='https://www.pngkey.com/png/full/85-858820_eagle-pcb-logo-png.png' alt="slide" />
                     <img className='language_img' src='https://blogs.solidworks.com/solidworkslatamyesp/wp-content/uploads/sites/15/2018/03/sw-150x150.png' alt="slide" />
-                    <img className='language_img' src='https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/vertical-logo-monochromatic.png?itok=erja9lKc' alt="slide" />
+                    <img className='language_img' src='https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png' alt="slide" />
                 </div>
             </div>
     );
