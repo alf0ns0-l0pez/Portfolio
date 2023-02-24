@@ -1,5 +1,6 @@
 #dictionary
 /node_modules
+/build
 # Compiled class file
 *.class
 
