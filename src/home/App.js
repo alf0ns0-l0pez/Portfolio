@@ -33,7 +33,7 @@ export const App = () => {
             <ImgCarousel isMobile={isMobile}/>
             <Summary isMobile={isMobile}/>
             <PlatformsIcons ref={platRef}/>
-            {/*<ExperienceList  ref={expRef} isMobile={isMobile}/>*/}
+            <ExperienceList  ref={expRef} isMobile={isMobile}/>
             <Contact ref={contRef} isMobile={isMobile}/>
         </div>
     );
