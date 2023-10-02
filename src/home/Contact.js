@@ -15,10 +15,10 @@ export default function Contact(props) {
             <div className='title_xxl' style={{color:'#fff'}}><h1 >Contact</h1></div>
             <form className='row_img'>
                 <GitHubIcon value='github' onClick={() => handleChange("github")} className='social_net_img' sx={{ fontSize: '6rem' }} />
-                <LinkedInIcon value='linkedin' onClick={() => handleChange("linkedin")} className='social_net_img' sx={{ fontSize: '6rem' }} />
-                <TwitterIcon value='twitter' onClick={() => handleChange("twitter")} className='social_net_img' sx={{ fontSize: '6rem' }} />
                 <YouTubeIcon value='youtube' onClick={() => handleChange("youtube")} className='social_net_img' sx={{ fontSize: '6rem' }} />
+                <LinkedInIcon value='linkedin' onClick={() => handleChange("linkedin")} className='social_net_img' sx={{ fontSize: '6rem' }} />
                 <ThreeDRotationIcon value='grabcad' onClick={() => handleChange("grabcad")} className='social_net_img' sx={{ fontSize: '6rem' }} />
+                <TwitterIcon value='twitter' onClick={() => handleChange("twitter")} className='social_net_img' sx={{ fontSize: '6rem' }} />
             </form>
         </div>
     );
