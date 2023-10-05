@@ -2,8 +2,9 @@
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 body { 
   margin: 0px; 
-  background-color: white;
-  font-family: 'Murecho', sans-serif;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 *{
   margin: 0px;
@@ -11,17 +12,20 @@ body {
 }
 p{
   font-size: 25px;
+  text-align: justify;
 }
 h1{
   text-align: center;
-  font-size: 50px;
+  font-size: 55px;
+}
+span{
+  font-size: 30px;
 }
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 *       HEAD BAR
 *-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 
 #headcontent{
-  background-color: black;  
   display: block;
   padding: 0px;
 }
@@ -35,6 +39,7 @@ h1{
 #headcontent>section{
   /*border-top: 3px solid #676767;*/
   position: relative;
+  padding-bottom: 100px;
 }
 .pcbimg{
   width: 100%;
@@ -52,32 +57,86 @@ h1{
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 /*  OPEN SOURCE  */
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#sumary{
+  width: 100%;
+  padding: 0px 0px 130px;
+}
 #opensource{
-  background-color: #ffffff;
-  padding: 0px 50px;
-}
-.linux-message{
-  max-width: 1200px;
-  margin: 30px auto;
-  background-color: #ffffff;
-  border-radius: 6px;
-  box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.3);
-  padding: 20px;
-}
-.linuxtorvalds-image{
-  display: block;
-  border-radius: 100px;
+  max-width: 1000px;
+  padding: 0px 100px;
   margin: 0 auto;
 }
-#opensource>.linux-message>p{
-  padding: 30px;
+#opensource>h1{
+  padding: 120px 0px 40px;
 }
-
-
+#opensource>h2{
+  padding: 120px 0px 5px;
+  font-size: 80px;
+  text-align: center;
+}
+#opensource>h3{
+  padding: 0px 0px 70px;
+  font-size: 30px;
+  text-align: center;
+}
+.linux-message{
+  min-height: 350px;
+  max-width: 1000px;
+  margin: 30px auto;
+  border-radius: 15px;
+  border: 2px solid rgb(201, 201, 201);
+  box-shadow: 2rem 2rem 0.5rem #42C920;
+  padding: 20px;
+  background-color: rgb(25, 25, 25);
+}
+#opensource>.linux-message>img{
+  height: 300px;
+  padding: 30px;
+  border-radius: 100px;
+  float: left;
+}
+#opensource>.linux-message>p{
+  padding: 80px 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+#opensource>.linux-message>p>span{
+  font-weight: normal;
+}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+/*  footer  */
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+footer {
+  padding: 10px 10px;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+  
+}
+footer>p{
+  text-align: center;
+  font-size: 16px;
+}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+/*  footer  */
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#head-exp{
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+#head-exp>img{
+  grid-row: 1/3;
+  height: 60px;
+}
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 /*  MOBILE  */
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 @media only screen and (max-width: 981px) {
+  #opensource>.linux-message>p{
+    padding-top: 30px;
+  }
   #headcontent>img{
     padding-bottom: 120px;
     
@@ -90,5 +149,8 @@ h1{
   }
   h1{
     font-size: 60px;
+  }
+  span{
+    font-size: 40px;
   }
 } 
