@@ -38,9 +38,12 @@ export const App = () => {
 
                 </div>
             </section>
-            <article id="opensource">
-                <h1 >Experience</h1>
-                <div className="linux-message">
+            <article id="experience">
+                <section>
+                    <h1 >Experience</h1>
+                </section>
+
+                <div className="work-info">
                     <div id='head-exp'>
                         <img src='https://www.pacmexico.com/PacLogo.png' alt='...' />
                         <h2>PAC MEXICO SA DE CV</h2>
@@ -75,7 +78,7 @@ export const App = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="linux-message">
+                <div className="work-info">
                     <div id='head-exp'>
                         <img src='https://www.pacmexico.com/PacLogo.png' alt='...' />
                         <h2>PAC MEXICO SA DE CV</h2>
@@ -110,7 +113,7 @@ export const App = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="linux-message">
+                <div className="work-info">
                     <div id='head-exp'>
                         <img src='https://www.pacmexico.com/PacLogo.png' alt='...' />
                         <h2>PAC MEXICO SA DE CV</h2>
@@ -147,7 +150,7 @@ export const App = () => {
                 </div>
             </article>
             <footer>
-                <p>© Copyright 2015 Company Name. All rights reserved.</p>
+                <p>© Copyright 2023 Alfonso Lopez. All rights reserved.</p>
             </footer>
         </>
     );

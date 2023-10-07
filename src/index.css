@@ -63,7 +63,7 @@ span{
 }
 #opensource{
   max-width: 1000px;
-  padding: 0px 100px;
+  padding: 0px 100px 150px;
   margin: 0 auto;
 }
 #opensource>h1{
@@ -107,7 +107,7 @@ span{
 /*  footer  */
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 footer {
-  padding: 10px 10px;
+  padding: 15px 0px;
   position: relative;
   width: 100%;
   background-color: black;
@@ -116,10 +116,10 @@ footer {
 }
 footer>p{
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
-/*  footer  */
+/*  Experience  */
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 #head-exp{
   padding-top: 20px;
@@ -130,6 +130,44 @@ footer>p{
   grid-row: 1/3;
   height: 60px;
 }
+#experience{
+  color:black;
+  background-color: #42C920;
+  padding: 100px 100px 150px;
+}
+#experience>section{
+  width: 400px;
+  margin: 0px auto;
+  border: 2px solid rgb(201, 201, 201);
+  box-shadow: 1rem 1rem  #ffffff;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+.work-info{
+  min-height: 350px;
+  max-width: 1000px;
+  margin: 80px auto 0px;
+  border-radius: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 2rem 2rem 0.5rem #42C920;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  
+}
+#experience>.work-info>img{
+  height: 300px;
+  padding: 30px;
+  border-radius: 100px;
+  float: left;
+}
+#experience>.work-info>p{
+  padding: 80px 30px;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 /*  MOBILE  */
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
