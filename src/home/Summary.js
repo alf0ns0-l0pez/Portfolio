@@ -1,27 +1,19 @@
 import React from 'react';
-import '../index.css';
 
-export default function Summary(props) {
-    const { isMobile } = props;
+export default function Summary() {
     return (
-        <div className='container_exp gradTop' style={{paddingTop:'10rem'}}>
-            <form className={isMobile ? 'experience boxMobile':'experience boxNormal'}>
-                    <p style={{fontSize:'2.7rem', padding:'0 2rem 0'}}>
-                    <b>Hello I'm Alfonso Lopez</b>
-                    </p>
-                    <p style={{fontSize:'2.2rem', padding:'0 2rem 0'}}>
-                        <b>Software Developer Engineer</b>
-                    </p>
-                    <p style={{fontSize:'1.7rem',padding:'0 2rem 0'}}>
-                        I'm Engineer with a can-do attitude, an enthusiastic
-                        team player and deep creative thinker, proficient with the
-                        systems programming and user experience design.
-                        Considering myself a person with ease of theoretical and
-                        practical learning. In the last years I have been dedicated to
-                        the development of application projects for manufacturing
-                        industry.
-                    </p>
-            </form>
+        <section style={{ backgroundColor: "#1A1A1A" }} id='sumary'>
+        <div id="opensource">
+            <h2 >I'm Alfonso Lopez</h2>
+            <h3>Software Developer</h3>
+            <p>I'm Engineer with a can-do attitude, an enthusiastic
+                team player and deep creative thinker, proficient with the
+                systems programming and user experience design.
+                Considering myself a person with ease of theoretical and
+                practical learning. In the last years I have been dedicated to
+                the development of application projects for manufacturing
+                industry.</p>
         </div>
+    </section>
     );
 };
