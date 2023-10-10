@@ -5,12 +5,16 @@ export default function ProjectCard() {
     return (
         <div className='card' onMouseOver={() => setCardOver(true)} onMouseLeave={() => setCardOver(false)}>
             {
-                !cardOver ?
+                true ?
                     <div className='cardover'>
                         <h2>Title</h2>
-                        
-                        <p>Language:Python<br/>Language:Python<br/>Language:Python<br/>Language:Python<br/>Language:Python</p>
-                        <img src='https://alf0ns0-l0pez.github.io/Portfolio/img/al_logo.png' alt='repository' width='100%' />
+
+                        <section>
+                            <p style={{ width: '80%' }}>Language:Python<br />Language:Python<br />Language:Python<br />Language:Python<br />Language:Python</p>
+                        </section>
+                        <button>
+                            <img src='/img/GitHub-Mark.png' alt='repository' height='100%' />
+                        </button>
                     </div> :
                     <div className='cardleaver'>
                         <h2>Title</h2>

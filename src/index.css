@@ -187,6 +187,7 @@ footer>p{
   grid-template-columns: repeat(3,1fr);
 }
 .card{
+  height: 550px;
   width: 100%;
   border: 5px solid #42C920;
   border-radius: 14px;
@@ -206,19 +207,31 @@ footer>p{
   text-align: center;
   color: black;
 }
-.cardover>img{
+.cardover>button{
+  border: 2px solid black;
+  display: block;
   grid-column: 3;
   grid-row: 4;
+  float: left;
+  border-radius: 50%;
 }
-.cardover>p{
-  border-radius: 14px;
+.cardover>button:hover{
+  transform: rotate(360deg);
+  transition: transform 1.5s;
+  background-color: #8afa6e;
+}
+.cardover>section{
   width: 100%;
-  padding: 10px 0px;
   border: 2px solid #42C920;
   background-color: black;
-  text-align: left;
   color: #42C920;
   grid-column: 1/4;
+}
+.cardover>section>p{
+  width: 100%;
+  margin: 15px auto;
+  text-align: left;
+  color: #42C920;
 }
 .cardleaver{
   display: grid;
