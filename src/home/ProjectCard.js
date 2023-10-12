@@ -5,7 +5,7 @@ export default function ProjectCard() {
     return (
         <div className='card' onMouseOver={() => setCardOver(true)} onMouseLeave={() => setCardOver(false)}>
             {
-                true ?
+                cardOver ?
                     <div className='cardover'>
                         <h2>Title</h2>
 
@@ -18,7 +18,7 @@ export default function ProjectCard() {
                     </div> :
                     <div className='cardleaver'>
                         <h2>Title</h2>
-                        <img src='https://alf0ns0-l0pez.github.io/Portfolio/img/al_logo.png' alt='repository' width='100%' />
+                        <img src='/img/relmatusb.png' alt='repository' width='100%' />
                         <p>Mucho texto escrito asta ahorita</p>
                     </div>
             }
