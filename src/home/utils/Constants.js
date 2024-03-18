@@ -36,5 +36,72 @@ export const tradeMindProjectContent = {
             "values":"PostgreSQL"
         },
     ],
-    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/trademindpagegif.gif"
+    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/trademind.png"
+}
+export const minerMonitorProjectContent = {
+    "title":"Miner Monitor - Web Page",
+    "details":"En el período moderno temprano, algunas monarquías europeas adoptaron himnos reales. \
+        Algunos de estos himnos han sobrevivido al uso actual. \
+        en 1619, sigue siendo el himno real del Reino Unido y de los reinos de la Commonwealth. La Marcha Real, \
+        adoptado como himno real de la monarquía española en 1770, fue adoptado como himno nacional de España en 1\
+        939. Dinamarca conserva su himno real, Kong Christian stod ved højen mast (1780) junto con su himno nacion\
+        al (Der er et yndigt land, adoptado en 1835). En 1802, Gia Long encargó un himno real al estilo europeo par\
+        a la Reino de Vietnam.",
+    "resources":[
+        {
+            "field":"Frontend Framework",
+            "values":"Javascrypt - React JS"
+        }
+    ],
+    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/minermonitor.png"
+}
+export const boardRelayProjectContent = {
+    "title":"Computer Power Switches Board",
+    "details":"En el período moderno temprano, algunas monarquías europeas adoptaron himnos reales. \
+        Algunos de estos himnos han sobrevivido al uso actual. \
+        en 1619, sigue siendo el himno real del Reino Unido y de los reinos de la Commonwealth. La Marcha Real, \
+        adoptado como himno real de la monarquía española en 1770, fue adoptado como himno nacional de España en 1\
+        939. Dinamarca conserva su himno real, Kong Christian stod ved højen mast (1780) junto con su himno nacion\
+        al (Der er et yndigt land, adoptado en 1835). En 1802, Gia Long encargó un himno real al estilo europeo par\
+        a la Reino de Vietnam.",
+    "resources":[
+        {
+            "field":"Embedded Programming",
+            "values":"Bare-Metal Programming, C language"
+        },
+        {
+            "field":"Microcontroller",
+            "values":"ARM Cortex M3 STM32F103C8T6"
+        },
+        {
+            "field":"Electronic design automation (EDA) software",
+            "values":"Autodesk Eagle"
+        }
+    ],
+    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/BoardRelayMatrix.jpeg"
+}
+export const boardMotorProjectContent = {
+    "title":"Stepper Motor Board",
+    "details":"En el período moderno temprano, algunas monarquías europeas adoptaron himnos reales. \
+        Algunos de estos himnos han sobrevivido al uso actual. \
+        en 1619, sigue siendo el himno real del Reino Unido y de los reinos de la Commonwealth. La Marcha Real, \
+        adoptado como himno real de la monarquía española en 1770, fue adoptado como himno nacional de España en 1\
+        939. Dinamarca conserva su himno real, Kong Christian stod ved højen mast (1780) junto con su himno nacion\
+        al (Der er et yndigt land, adoptado en 1835). En 1802, Gia Long encargó un himno real al estilo europeo par\
+        a la Reino de Vietnam.",
+    "resources":[
+        {
+            "field":"Embedded Programming",
+            "values":"Bare-Metal Programming, C language"
+        },
+        {
+            "field":"Microcontroller",
+            "values":"ARM Cortex M3 STM32F103C8T6"
+        },
+        {
+            "field":"Electronic design automation (EDA) software",
+            "values":"Autodesk Eagle"
+        }
+    ],
+    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/BoardMotor.jpeg"
 }
