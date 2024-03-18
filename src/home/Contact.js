@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from  '@mui/icons-material/YouTube';
 import ThreeDRotationIcon from '@mui/icons-material/ThreeDRotation';
-import {UrlList} from './constants'
+import {UrlList} from './utils/Constants'
 
 export default function Contact(props) {
     const handleChange = (value) => {

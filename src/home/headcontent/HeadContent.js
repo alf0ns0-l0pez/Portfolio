@@ -1,5 +1,5 @@
-import '../index.css';
-export default function TopMenu() {
+import './HeadContent.css';
+export default function HeadContent() {
     return (
         <header id='headcontent'>
             <img src='https://alf0ns0-l0pez.github.io/Portfolio/img/al_logo.png'

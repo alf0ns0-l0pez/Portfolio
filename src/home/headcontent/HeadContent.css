@@ -1,0 +1,32 @@
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+*       HEAD BAR
+*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+#headcontent{
+    display: block;
+    padding: 0px;
+  }
+  #headcontent>img{
+    display: block;
+    margin: 0px auto;
+    height: 100px;
+    padding: 70px 0px 40px;
+    
+  }
+  #headcontent>section{
+    /*border-top: 3px solid #676767;*/
+    position: relative;
+    padding-bottom: 100px;
+  }
+  .pcbimg{
+    width: 100%;
+  }
+  .profileimg {
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    position: absolute;
+    margin: 0 auto;
+  }

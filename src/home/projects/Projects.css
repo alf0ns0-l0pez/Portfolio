@@ -1,0 +1,15 @@
+#projects{
+    background-color: var(--color1);
+}
+#projects>section{
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 100px 50px;
+    border-radius: 15px;
+}
+#projects>section>h1,
+#projects>section>p,
+#projects>section>ul,
+#projects>section>img{
+    padding-top: 40px;
+}

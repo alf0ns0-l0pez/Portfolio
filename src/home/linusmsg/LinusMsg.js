@@ -1,8 +1,8 @@
-import '../index.css';
+import './LinusMsg.css';
 export default function LinusMsg() {
     return (
         <section id="opensource">
-            <h1 >OpenSource</h1>
+            <h1 >Open Source</h1>
             <div className="linux-message">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/220px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg" alt="linuxtorvalds" />
                 <p>“I often compare open source to science. Science took

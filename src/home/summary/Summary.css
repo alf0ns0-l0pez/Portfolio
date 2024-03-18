@@ -1,0 +1,33 @@
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+/*  SUMARY  */
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+
+#sumary {
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+
+#sumary>section {
+    padding: 50px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+#sumary>section>h1 {
+    padding: 120px 0px 5px;
+    font-size: var(--sumaryTitleFontSize);
+    text-align: center;
+}
+
+#sumary>section>h2 {
+    padding: 0px 0px 70px;
+    font-size: var(--subTitleFontSize);
+    text-align: center;
+    color: var(--color9);
+}
+
+#sumary>section>p {
+    text-align: justify;
+    font-weight: bold;
+}

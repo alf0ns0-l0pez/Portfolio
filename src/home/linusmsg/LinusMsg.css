@@ -1,0 +1,36 @@
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+/*  OPEN SOURCE  */
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#opensource{
+    max-width: 1000px;
+    padding: 0px 100px 150px;
+    margin: 0 auto;
+  }
+  #opensource>h1{
+    padding: 120px 0px 40px;
+  }
+  
+  .linux-message{
+    min-height: 350px;
+    max-width: 1000px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 2px solid var(--color6);
+    box-shadow: 2rem 2rem 0.5rem var(--color3);
+    padding: 20px;
+    background-color: var(--color1);
+  }
+  #opensource>.linux-message>img{
+    height: 300px;
+    padding: 30px;
+    border-radius: 100px;
+    float: left;
+  }
+  #opensource>.linux-message>p{
+    padding: 80px 30px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  #opensource>.linux-message>p>span{
+    font-weight: normal;
+  }

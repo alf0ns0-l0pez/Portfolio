@@ -1,0 +1,14 @@
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+/*  footer  */
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+footer {
+    padding: 15px 0px;
+    position: relative;
+    width: 100%;
+    background-color: var(--color2);
+    
+  }
+  footer>p{
+    text-align: center;
+    font-size: var(--footerTextFontSize);
+  }

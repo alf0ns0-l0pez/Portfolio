@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./Summary.css"
 export default function Summary() {
     return (
         <div style={{ backgroundColor: "#1A1A1A" }} id='sumary'>
