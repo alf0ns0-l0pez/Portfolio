@@ -2,7 +2,7 @@
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 :root {
   /*Colors*/
-  --color1: #191919;
+  --color1: #353535;
   --color2: #000000;
 
   /*--color3: #42C920;
@@ -53,12 +53,17 @@ body {
 }
 p{
   font-size: var(--textFontSize);
-  text-align: justify;
-  font-weight: bold;
+  text-align:left;
 }
 h1{
   text-align: center;
   font-size: var(--titleFontSize);
+}
+h2{
+  font-size: var(--subTitleFontSize);
+}
+h3{
+  font-size: var(--textFontSizeMob);
 }
 span{
   font-size: var(--nameFontSize);

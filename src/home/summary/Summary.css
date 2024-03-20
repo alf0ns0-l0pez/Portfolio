@@ -21,13 +21,12 @@
 }
 
 #sumary>section>h2 {
-    padding: 0px 0px 70px;
-    font-size: var(--subTitleFontSize);
+    padding: 0px 0px 50px;
     text-align: center;
     color: var(--color9);
 }
 
 #sumary>section>p {
-    text-align: justify;
+    text-align: center;
     font-weight: bold;
 }

@@ -13,8 +13,8 @@
     margin: 30px auto;
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, var(--color3) 100%);
-    border-radius: 50px;
-    padding: 50px;
+    border-radius: 30px;
+    padding: 30px;
 }
 .threeicons{
     display: grid;
