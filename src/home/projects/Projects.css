@@ -6,7 +6,7 @@
 }
 .projectmenu{
     display: grid;
-    grid-template-columns: 1fr 100px;
+    grid-template-columns: 1fr 180px;
 }
 ul{
     max-width: 1000px;

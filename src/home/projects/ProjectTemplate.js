@@ -22,14 +22,14 @@ export default function ProjectTemplate(props) {
                                     sx={{ color: "#95ffe6" }}
                                     onClick={() => setProjectSelected("")}
                                     endIcon={<CloseFullscreenIcon />}>
-                                    Close
+                                    Click to Close
                                 </Button>
                                 :
                                 <Button variant="outlined"
                                     sx={{ color: "#95ffe6" }}
                                     onClick={clickHandled}
                                     endIcon={<OpenInFullIcon />}>
-                                    Open
+                                    Click to Open
                                 </Button>
                         }
                     </Stack>
