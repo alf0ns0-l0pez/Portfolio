@@ -11,7 +11,7 @@
 ul{
     max-width: 1000px;
     margin: 0px auto;
-    padding: 0px 0px 50px;
+    padding: 0px 50px 50px;
     display: block;
     height: 30px;
     list-style: none;
@@ -37,6 +37,9 @@ ul>li{
 #projects>section>img{
     border-radius: 30px;
     margin: 30px 0px;
+}
+#projects>section>ul{
+    padding: 0px 0px 50px;
 }
 #projects>section>ul>li{
     clear: both;

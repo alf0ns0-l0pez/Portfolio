@@ -60,14 +60,11 @@ export const minerMonitorProjectContent = {
     "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/minermonitor.png"
 }
 export const boardRelayProjectContent = {
-    "title":"Computer Power Switches Board",
-    "details":<p>En el período moderno temprano, algunas monarquías europeas adoptaron himnos reales. 
-        Algunos de estos himnos han sobrevivido al uso actual. 
-        en 1619, sigue siendo el himno real del Reino Unido y de los reinos de la Commonwealth. La Marcha Real, 
-        adoptado como himno real de la monarquía española en 1770, fue adoptado como himno nacional de España en 1 
-        939. Dinamarca conserva su himno real, Kong Christian stod ved højen mast (1780) junto con su himno nacion 
-        al (Der er et yndigt land, adoptado en 1835). En 1802, Gia Long encargó un himno real al estilo europeo par 
-        a la Reino de Vietnam.</p>,
+    "title":"CPU Power Switches Board",
+    "details":<p>This project exists since 2020, turn the MINER RIG COMPUTER on and off remotely and automatically while was connected 
+        to edge computer which worked as a server allowing the use of power electronics in a safe and isolated way, 
+        it could turn the MINER RIG COMPUTER on after a power outage adding a time delay 15 minutes, This could be a task for a UPS but the 
+        current of a MINING RIG exceeds 5 Amps, so for that reason this card was an economical solution and supported up to 8 MINING RIGS</p>,
     "resources":[
         {
             "field":"Embedded Programming",
@@ -86,13 +83,9 @@ export const boardRelayProjectContent = {
 }
 export const boardMotorProjectContent = {
     "title":"Stepper Motor Board",
-    "details":<p>En el período moderno temprano, algunas monarquías europeas adoptaron himnos reales. 
-        Algunos de estos himnos han sobrevivido al uso actual. 
-        en 1619, sigue siendo el himno real del Reino Unido y de los reinos de la Commonwealth. La Marcha Real,  
-        adoptado como himno real de la monarquía española en 1770, fue adoptado como himno nacional de España en 1 
-        939. Dinamarca conserva su himno real, Kong Christian stod ved højen mast (1780) junto con su himno nacion 
-        al (Der er et yndigt land, adoptado en 1835). En 1802, Gia Long encargó un himno real al estilo europeo par 
-        a la Reino de Vietnam.</p>,
+    "details":<p>The use of Stepper Motors has had exponential growth due to equipment that requires precision, 
+        but to use them it is neccesary drivers which are not easy to use, therefore this Board helps to control through 
+        USB Serial Port with intuitive commands controlling DIRECTION AND STEPS Number.</p>,
     "resources":[
         {
             "field":"Embedded Programming",
@@ -105,6 +98,42 @@ export const boardMotorProjectContent = {
         {
             "field":"Electronic design automation (EDA) software",
             "values":"Autodesk Eagle"
+        }
+    ],
+    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/BoardMotor.jpeg"
+}
+export const usbserialProjectContent = {
+    "title":"USB Serial Port Module",
+    "details":<p>This project is a serial port module to exchange data between microcontrollers and computers 
+        through UART Protocol, helping to reduce this piece of hardware in some boards which do not need it for their application.</p>,
+    "resources":[
+        {
+            "field":"Embedded Programming",
+            "values":"Bare-Metal Programming, C language"
+        },
+        {
+            "field":"Microcontroller",
+            "values":"AVR Atmega32u4"
+        },
+        {
+            "field":"Electronic design automation (EDA) software",
+            "values":"Autodesk Eagle"
+        }
+    ],
+    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/BoardMotor.jpeg"
+}
+export const serialWebApiProjectContent = {
+    "title":"Serial Port Web Api",
+    "details":<p>This project helps to control my boards models from backend and then be consumed by a 
+        website uniting two worlds, electronics and web interfaces, all from a click anywhere on the intranet</p>,
+    "resources":[
+        {
+            "field":"Language",
+            "values":"python"
+        },
+        {
+            "field":"Library",
+            "values":"Flask, Pyserial"
         }
     ],
     "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/BoardMotor.jpeg"
