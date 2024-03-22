@@ -5,7 +5,7 @@
 #sumary {
     width: 100%;
     padding-bottom: 50px;
-
+    background-color: var(--color1);
 }
 
 #sumary>section {

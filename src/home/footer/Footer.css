@@ -2,10 +2,11 @@
 /*  footer  */
 /*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
 footer {
-    padding: 15px 0px;
+    border-top: 5px solid var(--color3);
+    padding: 12px 0px;
     position: relative;
     width: 100%;
-    background-color: var(--color2);
+    background-color: var(--color1);
     
   }
   footer>p{

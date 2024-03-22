@@ -1,0 +1,35 @@
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+/*  Social Networks  */
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_*/
+#contact {
+    padding: 100px 0px;
+    width: 100%;
+}
+
+.socialnets {
+    background-color: var(--color2);
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+.socialnets>h1 {
+    background-color: var(--color1);
+    padding: 15px 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom: 8px solid var(--color5);
+}
+.socialnets>section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.socialnet{
+    padding: 35px;
+}
+.socialnet>a>img{
+    border-radius: 30px;
+}
+.socialnet:hover{
+    padding: 20px;
+}
