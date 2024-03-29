@@ -5,7 +5,7 @@ export default function HeadContent() {
             <img src='https://alf0ns0-l0pez.github.io/Portfolio/img/al_logo.png'
                 alt="alfonsologo" />
             <section>
-                <img className='pcbimg' src='https://alf0ns0-l0pez.github.io/Portfolio/img/pcbbackground.jpg' alt="pcbimg" />
+                <img className='pcbimg' src='./img/pcbbackground2.png' alt="pcbimg" />
                 <img className='profileimg' src='https://alf0ns0-l0pez.github.io/Portfolio/img/profile.png' alt="profileimage" />
             </section>
         </header>

@@ -11,7 +11,7 @@ export const tradeMindProjectContent = {
     with axies such as price in dollars, market cap, volume 24h, fear and greed value, fear and greed classification relating 
     between them helping to take decision with fresh data collected from reliable sources.<br/>
     <a href="http://minerpunk.com" target="_blank" rel="noreferrer">**Click Here to Visit the WEBSITE**</a> <br/> 
-    <a href="https://github.com/alf0ns0-l0pez/TradeMind_WebPage">**Click Here to Visit the GITHUB Repository**</a></p>,
+    <a href="https://github.com/alf0ns0-l0pez/TradeMind_WebPage" target="_blank" rel="noreferrer">**Click Here to Visit the GITHUB Repository**</a></p>,
     "resources":[
         {
             "field":"Frontend Framework",
@@ -136,5 +136,5 @@ export const serialWebApiProjectContent = {
             "values":"Flask, Pyserial"
         }
     ],
-    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/BoardMotor.jpeg"
+    "projectImage":"https://alf0ns0-l0pez.github.io/Portfolio/img/insomnia_example.gif"
 }

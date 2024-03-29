@@ -3,7 +3,7 @@ import './Projects.css'
 import ProjectTemplate from "./ProjectTemplate";
 import { tradeMindProjectContent, minerMonitorProjectContent, 
     boardMotorProjectContent, boardRelayProjectContent, 
-    usbserialProjectContent, serialWebApiProjectContent } from "../utils/Constants"
+    serialWebApiProjectContent } from "../utils/Constants"
 import TerminalIcon from '@mui/icons-material/Terminal';
 
 export default function Projects() {
@@ -52,13 +52,6 @@ export default function Projects() {
                 details={boardMotorProjectContent["details"]}
                 resources={boardMotorProjectContent["resources"]}
                 imageSource={boardMotorProjectContent["projectImage"]}
-                setProjectSelected={setProjectSelected}
-                projectSelected={projectSelected} />
-            <ProjectTemplate
-                title={usbserialProjectContent["title"]}
-                details={usbserialProjectContent["details"]}
-                resources={usbserialProjectContent["resources"]}
-                imageSource={usbserialProjectContent["projectImage"]}
                 setProjectSelected={setProjectSelected}
                 projectSelected={projectSelected} />
         </div>

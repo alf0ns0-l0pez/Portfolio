@@ -7,7 +7,6 @@
 }
 
 .socialnets {
-    background-color: var(--color2);
     max-width: 800px;
     margin: 0px auto;
     padding: 0px 50px;
@@ -21,6 +20,8 @@
     border-bottom: 8px solid var(--color5);
 }
 .socialnets>section{
+    background: var(--color111);
+    background: linear-gradient(180deg, var(--color111) 0%, var(--color111) 35%, var(--color2) 100%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
